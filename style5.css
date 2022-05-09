@@ -1,0 +1,94 @@
+/* Competences et contact */
+
+.competences .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .competences .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
+  .competences .boxes .box:hover{
+    background: #CBE1D4;
+    color: #fff;
+  }
+  .competences .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background: #FAEBD7;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+  }
+  .boxes .box:hover .icon{
+    background-color: #fff;
+    color: #FAEBD7;
+  }
+  .competences .boxes .box:hover .topic,
+  .competences .boxes .box:hover p{
+    color: #0E2431;
+    transition: all 0.4s ease;
+  }
+  .competences .boxes .box:hover .topic,
+  .competences .boxes .box:hover p{
+    color: #fff;
+  }
+  /* Contact Me  */
+  .contact{
+    background: #FAEBD7;
+  }
+  .contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .contact .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+
+  /*Footer */ 
+  footer{
+    background-image: url(./back1.png) ;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer .text span{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+  }
+  footer .text span a{
+    font-weight: 500;
+    color: #FFF;
+  }
+  footer .text span a:hover{
+    text-decoration: underline;
+  }
+
+  /* Scroll up */
+.scroll-button a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: #FF8661;
+    padding: 7px 12px;;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+  }
